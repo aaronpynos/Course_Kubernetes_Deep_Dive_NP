@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM nginx
+FROM nginx:stable-trixie
 
 
 COPY index2.html /usr/share/nginx/html/index2.html
